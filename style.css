@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+.abertura {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: 'Poppins';
+}
+nav.menu {
+
+}
+
+nav.menu ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav.menu li{
+    padding: 0.5em 0;
+}
+
+nav.menu ul a{
+    text-decoration: none;
+    color: #000000BD;
+    font-size: 1rem;
+    
+}
+.container-texto h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.container-texto .introducao {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.container-foto img {
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+}
+
+.container-foto {
+    flex-basis: 150px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    height: 150px;
+}
+
+.container-bolinhas {
+    max-width: 900px;
+    margin: 2rem auto;
+    font-family: 'Poppins';
+    border-top: 10px solid #9C89B8;
+    padding: 2rem 0;
+    border-bottom: 10px solid #9C89B8;
+}
+
+.container-bolinhas .bolinhas {
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    background-color: #B8BEDD;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-bolinhas >div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
+
+}
+.container-bolinhas .bolinhas:hover {
+    background-color: #9C89B8;
+}
